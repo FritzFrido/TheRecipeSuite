@@ -36,19 +36,40 @@ def main():
 def BanBr(e1):
     from time import sleep
     sleep(1.0)
-    e1 = input("Good choice! How many frieds would you like to serve with your Banabread? ")
+    e1 = int(input("Good choice! How many frieds would you like to serve with your Banabread? "))
+
+    # Calculations of Ingredient Amounts
+    bananas = 1 * e1
+    map_syrup = 60 * e1
+    vegan_butter = 40 * e1
+    plant_milk = 50 * e1
+    apple_cider_vinegar = 40 *e1
+    oats = 20 * e1
+    whole_grain_flour = 40 * e1
+    wallnut = 20 * e1
+    cashew = 20 * e1
+    baking_powder = 2 * e1
+    salt = 1 * e1
+    cinnamon = 1 * e1
+    choco = 10 * e1
+
+
+
     sleep(0.5)
     print(f"For {e1} friends, you need the following ingrediences: ")
+    sleep(1.0)
+    print((str(bananas) + " ripe bananas"))
     sleep(0.5)
-    print((e1 * 1) + "ripe bananas")
-    print((e1 * 60) + "mililiters of maple syrup")
+    print((map_syrup) + " mililiters of maple syrup")
+    sleep(0.5)
+    pring((vegan_butter) + " grans of vegan butter")
 
 
 
-def SubCoo:
+def SubCoo():
     from time import sleep
 
-def IcedVanCo:
+def IcedVanCo():
     from time import sleep
 
 
