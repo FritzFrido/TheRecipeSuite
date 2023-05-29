@@ -10,11 +10,11 @@ def main():
 
     # Recipe statements
     sleep(1.0)
-    print("Banana Bread")
+        print("Banana Bread")
     sleep(0.5)
-    print("Subway Cookies")
+        print("Subway Cookies")
     sleep(0.5)
-    print("Iced Vanilla Cocoa")
+        print("Iced Vanilla Cocoa")
 
     # Get input from user
     select = input("Please type the recipe you’d like to try:")
@@ -33,16 +33,23 @@ def main():
 
 
 # DEFINE the functions for each individual recipe incl portion calculation
-def BanBr:
+def BanBr(e1):
+    from time import sleep
     sleep(1.0)
-    eatersB = input("Good choice! How many frieds would you like to serve with your Banabread? ")
+    e1 = input("Good choice! How many frieds would you like to serve with your Banabread? ")
+    sleep(0.5)
+    print(f"For {e1} friends, you need the following ingrediences: ")
+    sleep(0.5)
+    print((e1 * 1) + "ripe bananas")
+    print((e1 * 60) + "mililiters of maple syrup")
+
 
 
 def SubCoo:
-    x
+    from time import sleep
 
 def IcedVanCo:
-    x
+    from time import sleep
 
 
 
